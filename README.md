@@ -26,7 +26,7 @@ Bazel has local and [remote cache][bazel_remote].
 
 [HCL][hcl] is the interface language to write Terraform code. Bazel uses the [Starlark language][starlark]. They are both DSL-like high-level languages.
 
-HCL supports the following types: `string`, `number`, `bool`, `list`, `map` and `null`. Starlark supports `string`, `int`, `bool`, `list`, `dict`, `None` and `function`. This is how similar the `for` expression between the two,
+HCL supports the following types: `string`, `number`, `bool`, `list`, `map` and `null`. Starlark supports `string`, `int`, `bool`, `list`, `dict`, `None` and `function`. This is how similar the `for` statement between the two,
 
 Terraform code
 ```
